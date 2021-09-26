@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    background: #f1f0f5;
+    font-family: system-ui;
+}
+
+.sig{
+    margin: auto;
+    background: white;
+    display: block;
+    width: 400px;
+    height: 400px;
+    border-radius: 2.5rem;
+
+}
+
+.titulo{
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.campo{
+    display: flex;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.txtCampos{
+    display: block;
+    border-radius: 10px;
+    width: 75%;
+    height: 35px;
+    border: 0.3px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#esqueceuSenha{
+    margin-top: 10px;
+    display: flex;
+    color: lightslategrey;
+    margin-left: 10px;
+    margin-right: auto;
+    
+    justify-content: space-between;
+    padding: 0 35px 0 35px;
+}
+
+#esqueceuSenha a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.button{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 40px;
+    border-radius: 1rem;
+    border: 0px solid;
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#log{
+    font-size: small;
+    color: gray;
+    text-align: center;
+}
+
+#log a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#log a:hover{
+    opacity: 0.5;
+}
